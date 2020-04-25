@@ -13,7 +13,7 @@
                     <router-link to="/">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/about">Customer</router-link>
+                    <router-link to="/customer">Customer</router-link>
                 </li>
                 <li>
                     <router-link to="/restaurants">Restaurants</router-link>
@@ -29,7 +29,7 @@
         <router-link to="/">Home</router-link>
       </li>
       <li>
-        <router-link to="/about">Customer</router-link>
+        <router-link to="/customer">Customer</router-link>
       </li>
       <li>
         <router-link to="/restaurants">Restaurants</router-link>

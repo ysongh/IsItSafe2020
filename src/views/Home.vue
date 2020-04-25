@@ -4,7 +4,9 @@
     <h1 class="title center-align">GetSafe</h1>
     <a class="waves-effect waves-light btn-large light-blue darken-4">Manager</a>
     <br />
-    <a class="waves-effect waves-light btn-large light-blue darken-4">Customer</a>
+    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/customer">
+      Customer
+    </router-link>
   </div>
 </template>
 
