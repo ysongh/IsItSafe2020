@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>Landing</h1>
+    <img class="logo center-align" src="../assets/logo.svg" alt="">
+    <h1 class="title center-align">GetSafe</h1>
   </div>
 </template>
 
@@ -12,18 +13,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  .logo{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+  }
+
+  .title{
+    margin: 0;
+    font-size: 2rem;
+    color: #2FA2D4;
+  }
 </style>
