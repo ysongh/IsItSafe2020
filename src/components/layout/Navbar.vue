@@ -5,18 +5,18 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="/" class="brand-logo">Logo</a>
-            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <router-link to="/" data-target="mobile-nav" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
-            </a>
+            </router-link>
             <ul class="right hide-on-med-and-down">
                 <li>
-                    <a href="/">Home</a>
+                    <router-link to="/">Home</router-link>
                 </li>
                 <li>
-                    <a href="/customer">Customer</a>
+                    <router-link to="/about">Customer</router-link>
                 </li>
                 <li>
-                    <a href="/restaurants">Restaurants</a>
+                    <router-link to="/restaurants">Restaurants</router-link>
                 </li>
             </ul>
           </div>
@@ -26,13 +26,13 @@
 
     <ul class="sidenav" id="mobile-nav">
       <li>
-        <a href="/">Home</a>
+        <router-link to="/">Home</router-link>
       </li>
       <li>
-        <a href="/customer">Customer</a>
+        <router-link to="/about">Customer</router-link>
       </li>
       <li>
-        <a href="/restaurants">Restaurants</a>
+        <router-link to="/restaurants">Restaurants</router-link>
       </li>
     </ul>
   </div>
