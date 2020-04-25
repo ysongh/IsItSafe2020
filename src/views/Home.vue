@@ -2,6 +2,9 @@
   <div class="hello">
     <img class="logo center-align" src="../assets/logo.svg" alt="">
     <h1 class="title center-align">GetSafe</h1>
+    <a class="waves-effect waves-light btn-large light-blue darken-4">Manager</a>
+    <br />
+    <a class="waves-effect waves-light btn-large light-blue darken-4">Customer</a>
   </div>
 </template>
 
@@ -16,13 +19,21 @@ export default {
   .logo{
     display: block;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     margin-bottom: .5rem;
   }
 
   .title{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 5rem;
     font-size: 2rem;
     color: #2FA2D4;
+  }
+
+  .btn-large{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-bottom: .5rem;
   }
 </style>
