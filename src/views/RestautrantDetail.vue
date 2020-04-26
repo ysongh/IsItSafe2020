@@ -55,9 +55,9 @@
                             <label for="question3">Did you feel safe?</label>
                         </div>
                     </div>
-                    <button class="waves-effect waves-light btn light-blue darken-4">
+                    <router-link class="waves-effect waves-light btn light-blue darken-4" to="/restautrants">
                         Submit
-                    </button>
+                    </router-link>
                 </div>
                 
             </div>
