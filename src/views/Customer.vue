@@ -1,37 +1,65 @@
 <template>
     <div class="container">
-        <div class="card mt-2">
-            <div class="card-content light-blue darken-4">
-                <span class="card-title activator white-text center-align">Restautrants</span>
+        <div class="row mt-2">
+            <div class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator center-align">Restautrants</span>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <router-link to="/restautrants">
+                            <img class="activator" src="../assets/type1.svg">
+                        </router-link>
+                    </div>
+                </div>
             </div>
-            <div class="card-image waves-effect waves-block waves-light">
-                <router-link to="/restautrants">
-                    <img class="activator" src="../assets/type1.svg">
-                </router-link>
+            <div class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator center-align">Bars</span>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <router-link to="/restautrants">
+                            <img class="activator" src="../assets/type2.svg">
+                        </router-link>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-content light-blue darken-4">
-                <span class="card-title activator white-text center-align">Bars</span>
+            <div class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator center-align">Finance</span>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <router-link to="/restautrants">
+                            <img class="activator" src="../assets/type3.svg">
+                        </router-link>
+                    </div>
+                </div>
             </div>
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../assets/type2.svg">
+            <div class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator center-align">Retail</span>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <router-link to="/restautrants">
+                            <img class="activator" src="../assets/type4.svg">
+                        </router-link>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-content light-blue darken-4">
-                <span class="card-title activator white-text center-align">Finance</span>
-            </div>
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../assets/type4.svg">
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-content light-blue darken-4">
-                <span class="card-title activator white-text center-align">Retail</span>
-            </div>
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../assets/type3.svg">
+            <div class="col s6 m4 l3">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator center-align">Salon</span>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <router-link to="/restautrants">
+                            <img class="activator" src="../assets/type5.svg">
+                        </router-link>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -45,6 +73,10 @@ export default {
 </script>
 
 <style scoped>
+    img{
+        padding: 0 1rem 1rem 1rem;
+    }
+    
     .card{
         margin: 1.5rem 0;
     }
