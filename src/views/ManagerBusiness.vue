@@ -19,7 +19,7 @@
             <label class="active" for="city">Address</label>
           </div>
           <div class="input-field col s12">
-            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/customer">
+            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/manager/selfreport">
               Update Self Report
             </router-link>
           </div>

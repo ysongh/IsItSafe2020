@@ -29,6 +29,11 @@ Vue.use(VueRouter)
     component: () => import('../views/ManagerBusiness.vue')
   },
   {
+    path: '/manager/selfreport',
+    name: 'ManagerSelfReport',
+    component: () => import('../views/ManagerSelfReport.vue')
+  },
+  {
     path: '/customer',
     name: 'Customer',
     component: () => import('../views/Customer.vue')
