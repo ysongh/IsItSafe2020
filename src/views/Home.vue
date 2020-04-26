@@ -2,7 +2,9 @@
   <div class="hello">
     <img class="logo center-align" src="../assets/logo.svg" alt="">
     <h1 class="title center-align">GetSafe</h1>
-    <a class="waves-effect waves-light btn-large light-blue darken-4">Manager</a>
+    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/manager/login">
+      Manager
+    </router-link>
     <br />
     <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/customer">
       Customer

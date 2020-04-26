@@ -19,6 +19,11 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+    path: '/manager/login',
+    name: 'ManagerLogin',
+    component: () => import('../views/ManagerLogin.vue')
+  },
+  {
     path: '/customer',
     name: 'Customer',
     component: () => import('../views/Customer.vue')
