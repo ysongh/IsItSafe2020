@@ -6,11 +6,13 @@
             </div>
             <div class="light-blue darken-4">
                 <div class="card-content card-content-header">
-                    <div>
-                        <p><i class="material-icons yellow-text">star</i><span class="white-text">120</span></p>
+                    <div class="iconLabel">
+                        <i class="material-icons yellow-text">star</i>
+                        <span class="white-text">120</span>
                     </div>
-                    <div>
-                        <p><i class="material-icons white-text">location_on</i><span class="white-text">3rd Street, Road</span></p>
+                    <div class="iconLabel">
+                        <i class="material-icons white-text">location_on</i>
+                        <span class="white-text">3rd Street, Road</span>
                     </div>
                 </div>
                 <hr />
@@ -35,6 +37,9 @@
                 <label for="question3">Did you feel safe?</label>
             </div>
         </div>
+        <button class="waves-effect waves-light btn light-blue darken-4">
+            Submit
+        </button>
     </div>
   
 </template>
@@ -54,6 +59,14 @@ export default {
         font-size: 1.8rem;
     }
 
+    hr{
+        margin: 0 1.7rem;
+    }
+
+    .row{
+        margin-bottom: 0;
+    }
+
     .card{
         margin: 1.5rem 0;
     }
@@ -69,8 +82,19 @@ export default {
         font-size: 1.5rem;
         font-weight: 100 !important;
     }
+
+    .btn{
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
     
     .mt-2{
         margin-top: 2rem;
+    }
+
+    .iconLabel{
+        display: flex;
+        align-items: center;
     }
 </style>
