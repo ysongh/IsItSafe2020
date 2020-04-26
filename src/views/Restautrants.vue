@@ -2,7 +2,9 @@
     <div class="container">
         <div class="card mt-2">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../assets/restautrant1.svg">
+                <router-link to="/restautrantDetail">
+                    <img class="activator" src="../assets/restautrant1.svg">
+                </router-link>
             </div>
             <div class="card-content light-blue darken-4">
                 <div>
