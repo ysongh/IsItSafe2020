@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img class="logo center-align" src="../assets/logo.svg" alt="">
+    <img class="logo center-align" src="../assets/logo.svg" alt="Logo">
     <h1 class="title center-align">GetSafe</h1>
     <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/manager/login">
       Manager
