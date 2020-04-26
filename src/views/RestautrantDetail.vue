@@ -11,10 +11,26 @@
                             <h5 class="center-align">Restautrants 1</h5><i class="material-icons blue-text right">location_on</i>
                         </span>
                         <div class="card-info">
-                            <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
+                            <p class="card-p">Report</p>
+                            <div class="card-sub">
+                                <p class="mr-2">Sanitizing facilities</p>
+                                <i class="material-icons">check</i>
+                            </div>
+                            <div class="card-sub">
+                                <p class="mr-2">Customer distancing</p>
+                                <i class="material-icons">check</i>
+                            </div>
                         </div>
                         <div class="card-info">
-                            <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
+                            <p class="card-p">Public opinion</p>
+                            <div class="card-sub">
+                                <p class="mr-2">Feel safe</p>
+                                <i class="material-icons">check</i>
+                            </div>
+                            <div class="card-sub">
+                                <p class="mr-2">Feel clean</p>
+                                <i class="material-icons">clear</i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,7 +82,7 @@ export default {
     }
 
     h5{
-        margin-top: .5rem;
+        margin-top: 0rem;
         margin-bottom: 1rem;
     }
 
@@ -103,24 +119,24 @@ export default {
     }
 
     .card-info{
-        display: flex;
         padding: 3px 0;
+    }
+    
+    .card-sub{
+        display: flex;
+        margin-left: 1.5rem;
     }
 
     .card-p{
         font-size: 16px;
-        font-weight: 100;
     }
     
     .mt-2{
         margin-top: 2rem;
     }
-    .mr-2{
-        margin-right: 38px;
-    }
 
-    .mr-5{
-        margin-right: 90px;
+    .mr-2{
+        margin-right: 1rem !important;
     }
 
     .iconLabel{
