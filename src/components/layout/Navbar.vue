@@ -28,16 +28,16 @@
     </div>
 
     <ul class="sidenav" id="mobile-nav">
-      <li>
+      <li class="sidenav-close">
         <router-link to="/">Home</router-link>
       </li>
-      <li>
+      <li class="sidenav-close">
         <router-link to="/manager/login">Manager Login</router-link>
       </li>
-      <li>
+      <li class="sidenav-close">
         <router-link to="/customer">Customer</router-link>
       </li>
-      <li>
+      <li class="sidenav-close">
         <router-link to="/restaurants">Restaurants</router-link>
       </li>
     </ul>
