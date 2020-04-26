@@ -21,7 +21,7 @@
                     <router-link to="/customer">Customer</router-link>
                 </li>
                 <li>
-                    <router-link to="/restaurants">Restaurants</router-link>
+                    <router-link to="/restautrants">Restaurants</router-link>
                 </li>
             </ul>
           </div>
@@ -40,7 +40,7 @@
         <router-link to="/customer">Customer</router-link>
       </li>
       <li class="sidenav-close">
-        <router-link to="/restaurants">Restaurants</router-link>
+        <router-link to="/restautrants">Restaurants</router-link>
       </li>
     </ul>
   </div>
