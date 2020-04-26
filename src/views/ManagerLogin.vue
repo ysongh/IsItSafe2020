@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="logo center-align" src="../assets/logo.svg" alt="">
+    <img class="logo center-align" src="../assets/logo.svg" alt="Logo">
     <h1 class="title center-align">GetSafe</h1>
     
     <h5>Manager Login</h5>
@@ -18,7 +18,7 @@
             <label for="icon_key">Password</label>
           </div>
           <div class="input-field col s12">
-            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/customer">
+            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/manager/business">
               Login
             </router-link>
           </div>

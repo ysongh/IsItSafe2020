@@ -24,6 +24,11 @@ Vue.use(VueRouter)
     component: () => import('../views/ManagerLogin.vue')
   },
   {
+    path: '/manager/business',
+    name: 'ManagerBusiness',
+    component: () => import('../views/ManagerBusiness.vue')
+  },
+  {
     path: '/customer',
     name: 'Customer',
     component: () => import('../views/Customer.vue')
