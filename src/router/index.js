@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/customer',
     name: 'Customer',
     component: () => import('../views/Customer.vue')
+  },
+  {
+    path: '/restautrants',
+    name: 'Restautrants',
+    component: () => import('../views/Restautrants.vue')
   }
 ]
 

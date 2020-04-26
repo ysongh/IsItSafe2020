@@ -5,7 +5,9 @@
                 <span class="card-title activator white-text center-align">Restautrants</span>
             </div>
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="../assets/type1.svg">
+                <router-link to="/restautrants">
+                    <img class="activator" src="../assets/type1.svg">
+                </router-link>
             </div>
         </div>
         <div class="card">
