@@ -16,7 +16,24 @@
                 <hr />
                 <p class="white-text card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="question1" type="text" class="validate">
+                <label for="question1">Did you enjoy the service?</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="question2" type="text" class="validate">
+                <label for="question2">Was the environment clean?</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="question3" type="text" class="validate">
+                <label for="question3">Did you feel safe?</label>
+            </div>
         </div>
     </div>
   
