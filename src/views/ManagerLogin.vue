@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <img class="logo center-align" src="../assets/logo.svg" alt="Logo">
     <h1 class="title center-align">GetSafe</h1>
     
     <h5>Manager Login</h5>

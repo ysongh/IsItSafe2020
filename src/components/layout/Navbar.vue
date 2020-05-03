@@ -5,7 +5,7 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="/" class="brand-logo">
-              <img class="logo" src="../../assets/logo.svg" alt="Logo"><span>GetSafe</span>
+              <span>GetSafe</span>
             </a>
             <a to="" data-target="mobile-nav" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
