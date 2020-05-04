@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="navbar-fixed">
-      <nav class="light-blue darken-4">
+      <nav class="lime darken-3">
         <div class="container">
           <div class="nav-wrapper">
             <a href="/" class="brand-logo">

@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="input-field col s12">
-            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/manager/selfreport">
+            <router-link class="waves-effect waves-light btn lime darken-3" to="/manager/selfreport">
               Update Self Report
             </router-link>
           </div>

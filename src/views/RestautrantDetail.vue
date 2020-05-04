@@ -55,7 +55,7 @@
                             <label for="question3">Did you feel safe?</label>
                         </div>
                     </div>
-                    <router-link class="waves-effect waves-light btn light-blue darken-4" to="/restautrants">
+                    <router-link class="waves-effect waves-light btn lime darken-3" to="/restautrants">
                         Submit
                     </router-link>
                 </div>

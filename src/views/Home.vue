@@ -1,11 +1,11 @@
 <template>
   <div class="hello">
     <h1 class="title center-align">GetSafe</h1>
-    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/manager/login">
+    <router-link class="waves-effect waves-light btn-large lime darken-3" to="/manager/login">
       Manager
     </router-link>
     <br />
-    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/category">
+    <router-link class="waves-effect waves-light btn-large lime darken-3" to="/category">
       Category
     </router-link>
   </div>

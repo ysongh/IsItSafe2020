@@ -17,7 +17,7 @@
             <label for="icon_key">Password</label>
           </div>
           <div class="input-field col s12">
-            <router-link class="waves-effect waves-light btn light-blue darken-4" to="/manager/business">
+            <router-link class="waves-effect waves-light btn lime darken-2" to="/manager/business">
               Login
             </router-link>
           </div>
