@@ -5,8 +5,8 @@
       Manager
     </router-link>
     <br />
-    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/customer">
-      Customer
+    <router-link class="waves-effect waves-light btn-large light-blue darken-4" to="/category">
+      Category
     </router-link>
   </div>
 </template>

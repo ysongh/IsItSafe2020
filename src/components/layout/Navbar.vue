@@ -18,7 +18,7 @@
                     <router-link to="/manager/login">Manager Login</router-link>
                 </li>
                 <li>
-                    <router-link to="/customer">Customer</router-link>
+                    <router-link to="/category">Category</router-link>
                 </li>
                 <li>
                     <router-link to="/restautrants">Restaurants</router-link>

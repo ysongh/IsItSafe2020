@@ -34,9 +34,9 @@ Vue.use(VueRouter)
     component: () => import('../views/ManagerSelfReport.vue')
   },
   {
-    path: '/customer',
-    name: 'Customer',
-    component: () => import('../views/Customer.vue')
+    path: '/category',
+    name: 'Category',
+    component: () => import('../views/Category.vue')
   },
   {
     path: '/restautrants',
