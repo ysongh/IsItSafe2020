@@ -8,7 +8,7 @@
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <router-link to="/restautrants">
-                            <img class="activator" src="../assets/type1.svg">
+                            <i class="material-icons green-text">local_dining</i>
                         </router-link>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <router-link to="/restautrants">
-                            <img class="activator" src="../assets/type2.svg">
+                            <i class="material-icons green-text">local_bar</i>
                         </router-link>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <router-link to="/restautrants">
-                            <img class="activator" src="../assets/type3.svg">
+                            <i class="material-icons green-text">attach_money</i>
                         </router-link>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <router-link to="/restautrants">
-                            <img class="activator" src="../assets/type4.svg">
+                            <i class="material-icons green-text">shopping_cart</i>
                         </router-link>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <router-link to="/restautrants">
-                            <img class="activator" src="../assets/type5.svg">
+                            <i class="material-icons green-text">content_cut</i>
                         </router-link>
                     </div>
                 </div>
@@ -73,8 +73,10 @@ export default {
 </script>
 
 <style scoped>
-    img{
-        padding: 0 1rem 1rem 1rem;
+    i{
+        width: 100%;
+        font-size: 10rem;
+        text-align: center;
     }
     
     .card{
