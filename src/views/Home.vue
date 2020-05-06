@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1 class="title center-align">Is it safe 2020?</h1>
+    <img src="../assets/landingHero.svg" alt="Landing">
     <router-link class="waves-effect waves-light btn-large lime darken-3" to="/manager/login">
       Manager
     </router-link>
@@ -19,6 +20,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
   .logo{
     display: block;
     margin: auto;
@@ -27,8 +34,6 @@ export default {
   }
 
   .title{
-    margin-top: 0;
-    margin-bottom: 5rem;
     font-size: 2rem;
     color: #76b118;
   }
