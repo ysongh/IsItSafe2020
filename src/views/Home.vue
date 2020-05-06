@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1 class="title center-align">GetSafe</h1>
+    <h1 class="title center-align">Is it safe 2020?</h1>
     <router-link class="waves-effect waves-light btn-large lime darken-3" to="/manager/login">
       Manager
     </router-link>
@@ -30,7 +30,7 @@ export default {
     margin-top: 0;
     margin-bottom: 5rem;
     font-size: 2rem;
-    color: #2FA2D4;
+    color: #76b118;
   }
 
   .btn-large{

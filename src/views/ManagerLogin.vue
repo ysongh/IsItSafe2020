@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1 class="title center-align">GetSafe</h1>
     
     <h5>Manager Login</h5>
     <div class="row">

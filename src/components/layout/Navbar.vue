@@ -5,7 +5,7 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="/" class="brand-logo">
-              <span>GetSafe</span>
+              <span>IsItSafe2020</span>
             </a>
             <a to="" data-target="mobile-nav" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
