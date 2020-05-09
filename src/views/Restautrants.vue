@@ -1,88 +1,29 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col s12 m6">
-                <div class="card mt-2">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrantDetail">
-                            <img class="activator" src="../assets/restautrant1.svg">
-                        </router-link>
-                    </div>
-                    <div class="card-content grey lighten-3">
-                        <span class="card-title activator grey-text text-darken-4">
-                            <h5 class="center-align">Restautrants 1</h5><i class="material-icons blue-text right">location_on</i>
-                        </span>
-                        <div class="card-info">
-                            <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
+            <div v-bind:key="restautrant.id" v-for="restautrant in restautrants">
+                <div class="col s12 m6">
+                    <div class="card mt-2">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <router-link to="/restautrantDetail">
+                                <img class="activator" :src=restautrant.imgsrc>
+                            </router-link>
                         </div>
-                        <div class="card-info">
-                            <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="card mt-2">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrantDetail">
-                            <img class="activator" src="../assets/restautrant2.svg">
-                        </router-link>
-                    </div>
-                    <div class="card-content grey lighten-3">
-                        <span class="card-title activator grey-text text-darken-4">
-                            <h5 class="center-align">Restautrants 2</h5><i class="material-icons blue-text right">location_on</i>
-                        </span>
-                        <div class="card-info">
-                            <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
-                        </div>
-                        <div class="card-info">
-                            <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="card mt-2">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrantDetail">
-                            <img class="activator" src="../assets/restautrant3.svg">
-                        </router-link>
-                    </div>
-                    <div class="card-content grey lighten-3">
-                        <span class="card-title activator grey-text text-darken-4">
-                            <h5 class="center-align">Restautrants 3</h5><i class="material-icons blue-text right">location_on</i>
-                        </span>
-                        <div class="card-info">
-                            <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
-                        </div>
-                        <div class="card-info">
-                            <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="card mt-2">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrantDetail">
-                            <img class="activator" src="../assets/restautrant4.svg">
-                        </router-link>
-                    </div>
-                    <div class="card-content grey lighten-3">
-                        <span class="card-title activator grey-text text-darken-4">
-                            <h5 class="center-align">Restautrants 4</h5><i class="material-icons blue-text right">location_on</i>
-                        </span>
-                        <div class="card-info">
-                            <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
-                        </div>
-                        <div class="card-info">
-                            <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
+                        <div class="card-content grey lighten-3">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <h5 class="center-align">{{restautrant.name}}</h5><i class="material-icons blue-text right">location_on</i>
+                            </span>
+                            <div class="card-info">
+                                <span class="card-p mr-5">Report</span><img src="../assets/icon2.svg" alt="Face">
+                            </div>
+                            <div class="card-info">
+                                <span class="card-p mr-2">Public opinion</span><img src="../assets/icon3.svg" alt="Face">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
   
 </template>
@@ -90,6 +31,32 @@
 <script>
 export default {
   name: 'Restautrants',
+  data(){
+    return{
+      restautrants: [
+        {
+          id: 1,
+          name: "Restautrants 1",
+          imgsrc: require("../assets/restautrant1.svg")
+        },
+        {
+          id: 2,
+          name: "Restautrants 2",
+          imgsrc: require("../assets/restautrant2.svg")
+        },
+        {
+          id: 3,
+          name: "Restautrants 3",
+          imgsrc: require("../assets/restautrant3.svg")
+        },
+        {
+          id: 4,
+          name: "Restautrants 4",
+          imgsrc: require("../assets/restautrant4.svg")
+        }
+      ]
+    }
+  }
 }
 </script>
 
