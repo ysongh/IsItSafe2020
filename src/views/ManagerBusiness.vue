@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <img class="icon center-align" src="../assets/icon1.svg" alt="Disk Icon">
-    
-    <h5>Your Business Information</h5>
+    <h1>Your Business Information</h1>
     <div class="row">
       <form class="col s12">
         <div class="row">
@@ -57,8 +55,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h5{
-    margin-left: .6rem;
+  h1{
+    font-size: 3rem;
   }
 
   .icon{
