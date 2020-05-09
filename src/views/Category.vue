@@ -1,63 +1,17 @@
 <template>
     <div class="container">
         <div class="row mt-2">
-            <div class="col s6 m4 l3">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title activator center-align">Restautrants</span>
-                    </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrants">
-                            <i class="material-icons green-text">local_dining</i>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m4 l3">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title activator center-align">Bars</span>
-                    </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrants">
-                            <i class="material-icons green-text">local_bar</i>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m4 l3">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title activator center-align">Finance</span>
-                    </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrants">
-                            <i class="material-icons green-text">attach_money</i>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m4 l3">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title activator center-align">Retail</span>
-                    </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrants">
-                            <i class="material-icons green-text">shopping_cart</i>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-            <div class="col s6 m4 l3">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title activator center-align">Salon</span>
-                    </div>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <router-link to="/restautrants">
-                            <i class="material-icons green-text">content_cut</i>
-                        </router-link>
+             <div v-bind:key="catergory.id" v-for="catergory in catergories">
+                <div class="col s6 m4 l3">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title activator center-align">{{catergory.name}}</span>
+                        </div>
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <router-link to="/restautrants">
+                                <i class="material-icons green-text">{{catergory.icon}}</i>
+                            </router-link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,6 +23,37 @@
 <script>
 export default {
   name: 'Customer',
+  data(){
+    return{
+      catergories: [
+        {
+          id: 1,
+          name: "Restautrants",
+          icon: "local_dining"
+        },
+        {
+          id: 2,
+          name: "Bars",
+          icon: "local_bar"
+        },
+        {
+          id: 3,
+          name: "Finance",
+          icon: "attach_money"
+        },
+        {
+          id: 4,
+          name: "Retail",
+          icon: "shopping_cart"
+        },
+        {
+          id: 5,
+          name: "Salon",
+          icon: "content_cut"
+        }
+      ]
+    }
+  }
 }
 </script>
 
